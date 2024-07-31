@@ -9,7 +9,13 @@ export default createGlobalStyle`
     -webkit-font-smoothing: antialiased;
   }
 
+  :root {
+    font-size: 62.5%;
+  }
+
   body {
+    font-size: 1.6rem;
+    
     background-color: ${({ theme })=> theme.colors.bg_secondary};
   }
 `
