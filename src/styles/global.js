@@ -19,7 +19,7 @@ export default createGlobalStyle`
     background-color: ${({ theme })=> theme.colors.bg_secondary};
   }
 
-  body, h1, h2, p, a {
+  body, h1, h2, p, a, footer {
     font-family: 'Open Sans', sans-serif;
     color: ${({ theme })=> theme.colors.text_color};
   }
