@@ -23,4 +23,8 @@ export default createGlobalStyle`
     font-family: 'Open Sans', sans-serif;
     color: ${({ theme })=> theme.colors.text_color};
   }
+
+  h1, h2 {
+    color: ${({ theme })=> theme.colors.title_color}
+  }
 `
