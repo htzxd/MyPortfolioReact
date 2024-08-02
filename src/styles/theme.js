@@ -1,7 +1,8 @@
 export default {
   colors: {
-    bg_main: "#000000ef",
-    bg_secondary: "#161616",
+    bg_main: "#0F2132",
+    bg_secondary: "#343475",
+    bg_color_components: "rgb(22, 22, 22)", 
     text_color: "#FFF",
     title_color: "#9163a0cc",
   }
