@@ -3,6 +3,8 @@ import { Nav } from "../../components/nav";
 import { Footer } from "../../components/footer";
 import { InstagramLogo, LinkedinLogo, GithubLogo } from '@phosphor-icons/react'
 
+import img01 from '../../assets/336251128-684e0513-ac88-4209-98d.png'
+
 export function Home(){
   return (
     <Container>
@@ -11,7 +13,7 @@ export function Home(){
           <div className="profile">
             <img src="https://github.com/htzxd.png"/>
             <div className="text">
-              <h2>Hi, I'm Marco </h2>
+              <h2>Hi, I'm Marco! </h2>
               <p>This is my Portfolio and browsing here <br />you will learn more about me!</p>
             </div>
           </div>
@@ -31,6 +33,51 @@ export function Home(){
             I still have a lot to study and I'm very thirsty to learn, I'm focused and certainly a great professional.</p>
           </div>  
         </main>
+
+        <section>
+          <div className="tags">
+            <a href=""></a>
+            <img src={img01} />
+            <h2>DevLinks</h2>
+            <p>This project was developed for css, js and html. to store necessary links </p>
+          </div>
+
+          <div className="tags">
+            <a href=""></a>
+            <img src={img01} />
+            <h2>DevLinks</h2>
+            <p>This project was developed for css, js and html. to store necessary links </p>
+          </div>
+
+          <div className="tags">
+            <a href=""></a>
+            <img src={img01} />
+            <h2>DevLinks</h2>
+            <p>This project was developed for css, js and html. to store necessary links </p>
+          </div>
+
+          <div className="tags">
+            <a href=""></a>
+            <img src={img01} />
+            <h2>DevLinks</h2>
+            <p>This project was developed for css, js and html. to store necessary links </p>
+          </div>
+
+          <div className="tags">
+            <a href=""></a>
+            <img src={img01} />
+            <h2>DevLinks</h2>
+            <p>This project was developed for css, js and html. to store necessary links </p>
+          </div>
+
+          <div className="tags">
+            <a href=""></a>
+            <img src={img01} />
+            <h2>DevLinks</h2>
+            <p>This project was developed for css, js and html. to store necessary links </p>
+          </div>
+
+        </section>
 
       <Footer />
     </Container>

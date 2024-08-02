@@ -55,5 +55,27 @@ export const Container = styled.div`
       font-size: 2.4rem;
       list-style: none;
     }
+
+  }
+  
+  section {
+    margin: 1rem;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    .tags {
+      padding: 2rem;
+      gap: 1rem;
+      background: ${({ theme })=> theme.colors.bg_color_components};
+      border-radius: .8rem;
+
+      > img {
+        object-fit: cover;
+        max-width: 50rem;
+        overflow: hidden;
+        max-height: 50rem;
+      }
+    }
   }
 `
