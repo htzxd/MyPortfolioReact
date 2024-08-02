@@ -5,7 +5,7 @@ export const Container = styled.div`
     display: grid;
     grid-template-areas: 
     "profile social"
-    "about about"
+    "about about "
     "projects projects";
     margin: 1rem;
   }
@@ -14,6 +14,19 @@ export const Container = styled.div`
     display: flex;
     grid-area: profile;
   }
+
+  .text {
+    display: block;
+  }
+
+  .aboutMe {
+    background: ${({ theme })=> theme.colors.bg_color_components};
+    border-radius: .8rem;
+    padding: 2rem;
+    margin-top: 2rem;
+    grid-area: about;
+  }
+
 
   .social {
     background-color: ${({ theme })=> theme.colors.bg_color_components};
@@ -27,10 +40,6 @@ export const Container = styled.div`
       gap: 1rem;
       font-size: 2.4rem;
       list-style: none;
-    }
-
-    .aboutMe {
-      border: 1px solid red;
     }
   }
 `

@@ -10,8 +10,10 @@ export function Home(){
         <main>
           <div className="profile">
             <img src="https://github.com/htzxd.png"/>
-            <h2>Hi, I'm Marco </h2>
-            <p>This is my Portfolio and browsing here you will learn more about me!</p>
+            <div className="text">
+              <h2>Hi, I'm Marco </h2>
+              <p>This is my Portfolio and browsing here you will learn more about me!</p>
+            </div>
           </div>
 
           <div className="social">
@@ -25,7 +27,7 @@ export function Home(){
 
           <div className="aboutMe">
             <h2>About Me</h2>
-            <p>I'm a FullStack developer Junior, i'm learned so far html, css, js, react, sqlite3 and nodeJS.
+            <p>I'm a FullStack developer Junior, i'm learned so far html, css, js, react, sqlite3 and nodeJS. <br />
             I still have a lot to study and I'm very thirsty to learn, I'm focused and certainly a great professional.</p>
           </div>  
         </main>

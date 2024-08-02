@@ -8,9 +8,8 @@ export const Container = styled.nav`
     display: flex;
     justify-content: space-between;
 
-    > h1 {
-      color: ${({ theme })=> theme.colors.title_color};
-      font-weight: 900;
+    > a img {
+      height: 2.4rem;
     }
 
     > ul {
