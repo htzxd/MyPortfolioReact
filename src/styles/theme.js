@@ -4,6 +4,6 @@ export default {
     bg_secondary: "#343475",
     bg_color_components: "rgb(22, 22, 22)", 
     text_color: "#FFF",
-    title_color: "#9163a0cc",
+    title_color: "#4b82e9f5",
   }
 }

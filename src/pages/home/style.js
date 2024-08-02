@@ -13,31 +13,45 @@ export const Container = styled.div`
   .profile {
     display: flex;
     grid-area: profile;
+
+    > img {
+      max-height: 13rem;
+    }
   }
 
   .text {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+    
   }
 
   .aboutMe {
+    grid-area: about;
+
+
     background: ${({ theme })=> theme.colors.bg_color_components};
     border-radius: .8rem;
     padding: 2rem;
     margin-top: 2rem;
-    grid-area: about;
   }
 
 
   .social {
-    background-color: ${({ theme })=> theme.colors.bg_color_components};
-    padding: 1rem;
-    border-radius: .8rem;
-    justify-content: center;
     grid-area: social;
+
+    border-radius: .8rem;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: end;
+    margin-right: 1rem;
 
     > ul {
       display: flex;
-      gap: 1rem;
+      gap: 2rem;
       font-size: 2.4rem;
       list-style: none;
     }
