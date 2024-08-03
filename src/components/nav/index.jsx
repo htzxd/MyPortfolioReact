@@ -8,8 +8,8 @@ export function Nav(){
         <a href="/"><img src={logo} alt="" /></a>
       
         <ul>
-          <li><a href="#">projects</a></li>
-          <li><a href="#">technologies</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Technologies</a></li>
         </ul>
       </div>
     </Container>

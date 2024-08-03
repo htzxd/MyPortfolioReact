@@ -21,6 +21,7 @@ export const Container = styled.nav`
       > li a {
         text-decoration: none;
         font-weight: 900;
+        font-size: 2.4rem;
       }
     }
   }

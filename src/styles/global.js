@@ -20,7 +20,7 @@ export default createGlobalStyle`
   }
 
   body, h1, h2, p, a, footer {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: ${({ theme })=> theme.colors.text_color};
   }
 

@@ -1,9 +1,10 @@
 import { Container } from "./style";
+
 import { Nav } from "../../components/nav";
 import { Footer } from "../../components/footer";
-import { InstagramLogo, LinkedinLogo, GithubLogo } from '@phosphor-icons/react'
+import { Card } from "../../components/card";
 
-import img01 from '../../assets/336251128-684e0513-ac88-4209-98d.png'
+import { InstagramLogo, LinkedinLogo, GithubLogo } from '@phosphor-icons/react'
 
 export function Home(){
   return (
@@ -35,48 +36,12 @@ export function Home(){
         </main>
 
         <section>
-          <div className="tags">
-            <a href=""></a>
-            <img src={img01} />
-            <h2>DevLinks</h2>
-            <p>This project was developed for css, js and html. to store necessary links </p>
-          </div>
-
-          <div className="tags">
-            <a href=""></a>
-            <img src={img01} />
-            <h2>DevLinks</h2>
-            <p>This project was developed for css, js and html. to store necessary links </p>
-          </div>
-
-          <div className="tags">
-            <a href=""></a>
-            <img src={img01} />
-            <h2>DevLinks</h2>
-            <p>This project was developed for css, js and html. to store necessary links </p>
-          </div>
-
-          <div className="tags">
-            <a href=""></a>
-            <img src={img01} />
-            <h2>DevLinks</h2>
-            <p>This project was developed for css, js and html. to store necessary links </p>
-          </div>
-
-          <div className="tags">
-            <a href=""></a>
-            <img src={img01} />
-            <h2>DevLinks</h2>
-            <p>This project was developed for css, js and html. to store necessary links </p>
-          </div>
-
-          <div className="tags">
-            <a href=""></a>
-            <img src={img01} />
-            <h2>DevLinks</h2>
-            <p>This project was developed for css, js and html. to store necessary links </p>
-          </div>
-
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
         </section>
 
       <Footer />
