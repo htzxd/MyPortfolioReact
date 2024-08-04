@@ -60,13 +60,16 @@ export const Container = styled.div`
   
   section {
     margin: 1rem;
-    gap: 1rem;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
     a {
       text-decoration: none;
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 

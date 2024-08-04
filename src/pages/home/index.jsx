@@ -37,6 +37,9 @@ export function Home(){
 
         <section>
           <a href="https://github.com/htzxd/devLinks" target="_blank"><Card /></a>
+          <a href="https://github.com/htzxd/devLinks" target="_blank"><Card /></a>
+          <a href="https://github.com/htzxd/devLinks" target="_blank"><Card /></a>
+          
           
         </section>
 
