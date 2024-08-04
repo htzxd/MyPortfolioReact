@@ -22,6 +22,7 @@ export const Container = styled.nav`
         text-decoration: none;
         font-weight: 900;
         font-size: 2.4rem;
+        color: ${({ theme })=> theme.colors.nav_color};
       }
     }
   }

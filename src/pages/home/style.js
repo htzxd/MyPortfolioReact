@@ -31,7 +31,7 @@ export const Container = styled.div`
     grid-area: about;
 
 
-    background: ${({ theme })=> theme.colors.bg_color_components};
+    background: ${({ theme })=> theme.colors.bg_main};
     border-radius: .8rem;
     padding: 2rem;
     margin-top: 2rem;
@@ -64,5 +64,11 @@ export const Container = styled.div`
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+
+    a {
+      text-decoration: none;
+    }
   }
+
+
 `

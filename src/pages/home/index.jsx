@@ -36,12 +36,8 @@ export function Home(){
         </main>
 
         <section>
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          <a href="https://github.com/htzxd/devLinks" target="_blank"><Card /></a>
+          
         </section>
 
       <Footer />

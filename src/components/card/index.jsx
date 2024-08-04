@@ -8,7 +8,9 @@ export function Card(){
       <div className="cards">
         <img src={img} />
         <h2>Pro 1</h2>
-        <p>anything</p>
+        <p>Hoje eu vo bebe e pra esquece eu so quero whisky vagabundo <br /> 
+          igual voce, que vem com a dorde cabeça junto
+        </p>
       </div>
 
     </Container>
