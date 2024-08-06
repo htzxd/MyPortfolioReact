@@ -10,6 +10,16 @@ export const Container = styled.div`
     margin: 1rem;
   }
   
+  button {
+    padding: 2.4rem;
+    margin-top: 1rem;
+
+    border: 1px solid ${({ theme })=> theme.colors.bg_main};
+    border-radius: .8rem;
+    background: transparent;
+    cursor: pointer;
+  }
+
   .profile {
     display: flex;
     grid-area: profile;

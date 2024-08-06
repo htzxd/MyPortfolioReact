@@ -16,6 +16,7 @@ export function Home(){
             <div className="text">
               <h2>Hi, I'm Marco! </h2>
               <p>This is my Portfolio and browsing here <br />you will learn more about me!</p>
+              <button>Read More...</button>
             </div>
           </div>
 
@@ -37,8 +38,7 @@ export function Home(){
 
         <section>
           <a href="https://github.com/htzxd/devLinks" target="_blank"><Card /></a>
-          <a href="https://github.com/htzxd/devLinks" target="_blank"><Card /></a>
-          <a href="https://github.com/htzxd/devLinks" target="_blank"><Card /></a>
+          
           
           
         </section>
