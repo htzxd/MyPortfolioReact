@@ -25,6 +25,12 @@ export const Container = styled.div`
       flex-direction: column;
     }
   }
+
+  @media (max-width: 435px){
+    main {
+      margin-inline: 2rem;
+    }
+  }
 `
 
 export const Profile = styled.div`

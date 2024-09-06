@@ -1,7 +1,9 @@
 import { Container, Profile, Social, Text } from "./style";
 
 import { Link } from "react-router-dom";
+
 import { Nav } from "../../components/nav";
+import { Footer } from "../../components/footer";
 
 import { InstagramLogo, LinkedinLogo, GithubLogo } from '@phosphor-icons/react'
 
@@ -28,6 +30,8 @@ export function Home(){
             </ul>
           </Social> 
         </main>
+
+        <Footer/>
     </Container>
   )
 }
