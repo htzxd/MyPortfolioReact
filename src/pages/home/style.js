@@ -5,8 +5,7 @@ export const Container = styled.div`
     display: grid;
     grid-template-areas: 
     "profile social"
-    "about about "
-    "projects projects";
+    "about about ";
     margin: 1rem;
   }
   
@@ -34,19 +33,7 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     margin-left: 2rem;
-    
   }
-
-  .aboutMe {
-    grid-area: about;
-
-
-    background: ${({ theme })=> theme.colors.bg_main};
-    border-radius: .8rem;
-    padding: 2rem;
-    margin-top: 2rem;
-  }
-
 
   .social {
     grid-area: social;

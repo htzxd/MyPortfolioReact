@@ -1,10 +1,7 @@
 import { Container } from "./style";
 
-
-
+import { Link } from "react-router-dom";
 import { Nav } from "../../components/nav";
-import { Footer } from "../../components/footer";
-import { Card } from "../../components/card";
 
 import { InstagramLogo, LinkedinLogo, GithubLogo } from '@phosphor-icons/react'
 
@@ -18,7 +15,7 @@ export function Home(){
             <div className="text">
               <h2>Hi, I'm Marco! </h2>
               <p>This is my Portfolio and browsing here <br />you will learn more about me!</p>
-              <button>Read More...</button>
+              <button><Link to="/about">Read More...</Link></button>
             </div>
           </div>
 
@@ -30,22 +27,7 @@ export function Home(){
               <li><a href="https://github.com/htzxd" target="_blank"><GithubLogo /></a></li>
             </ul>
           </div> 
-
-          <div className="aboutMe">
-            <h2>About Me</h2>
-            <p>I'm a FullStack developer Junior, i'm learned so far html, css, js, react, sqlite3 and nodeJS. <br />
-            I still have a lot to study and I'm very thirsty to learn, I'm focused and certainly a great professional.</p>
-          </div>  
         </main>
-
-        <section>
-          <a href="https://github.com/htzxd/devLinks" target="_blank"><Card /></a>
-          
-          
-          
-        </section>
-
-      <Footer />
     </Container>
   )
 }
