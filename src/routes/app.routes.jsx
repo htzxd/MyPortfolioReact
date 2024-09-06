@@ -11,7 +11,7 @@ export function AppRoutes(){
       <Route path="/" element={<Home />}/>
       <Route path="/projects" element={<Projects />}/>
       <Route path="/about" element={<About />}/>
-      <Route path="/tech" element={<Tech />}/>
+      <Route path="/technologies" element={<Tech />}/>
     </Routes>
   )
   

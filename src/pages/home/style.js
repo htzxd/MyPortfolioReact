@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   main {
-    display: grid;
-    grid-template-areas: 
-    "profile social"
-    "about about ";
-    margin: 1rem;
+    display: flex;
+    
+    height: 80vh;
+    justify-content: space-evenly;
+    align-items: center;
   }
   
   button {
@@ -19,56 +19,45 @@ export const Container = styled.div`
     cursor: pointer;
   }
 
-  .profile {
-    display: flex;
-    grid-area: profile;
-
-    > img {
-      max-height: 13rem;
-    }
-  }
-
-  .text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 2rem;
-  }
-
-  .social {
-    grid-area: social;
-
-    border-radius: .8rem;
-    display: flex;
-    flex-direction: column;
-
-    justify-content: center;
-    align-items: end;
-    margin-right: 1rem;
-
-    > ul {
+  @media (max-width: 635px){
+    main {
       display: flex;
-      gap: 2rem;
-      font-size: 2.4rem;
-      list-style: none;
-    }
-
-  }
-  
-  section {
-    margin: 1rem;
-
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-
-    a {
-      text-decoration: none;
-      
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      flex-direction: column;
     }
   }
+`
 
+export const Profile = styled.div`
+  display: flex;
 
+  > img {
+    max-height: 13rem;
+  }
+
+`
+
+export const Text = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 2rem;
+`
+
+export const Social = styled.div`
+   grid-area: social;
+
+  border-radius: .8rem;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: end;
+  margin-right: 1rem;
+
+  > ul {
+    display: flex;
+    gap: 2rem;
+    font-size: 2.4rem;
+    list-style: none;
+  }
 `
