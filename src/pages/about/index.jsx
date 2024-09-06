@@ -1,10 +1,10 @@
 import { Container } from "./style";
 import { Nav } from "../../components/nav";
 
-export function Projects(){
+export function About(){
   return(
     <Container>
-      <Nav/>
+      <Nav />
     </Container>
   )
 }

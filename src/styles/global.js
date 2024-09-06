@@ -19,7 +19,7 @@ export default createGlobalStyle`
     background-color: ${({ theme })=> theme.colors.bg_secondary};
   }
 
-  body, h1, h2, p, a, footer {
+  body, h1, h2, p, a, footer, button {
     font-family: 'Roboto', sans-serif;
     color: ${({ theme })=> theme.colors.text_color};
   }

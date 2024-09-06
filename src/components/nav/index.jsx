@@ -1,15 +1,16 @@
 import { Container } from "./style";
 import logo from '../../assets/Vector 1.png'
+import { Link } from "react-router-dom";
 
 export function Nav(){
   return (
     <Container>
       <div>
-        <a href="/"><img src={logo} alt="" /></a>
+        <Link to="/"><img src={logo} alt="" /></Link>
       
         <ul>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Technologies</a></li>
+          <li><Link to="/projects">Projects</Link></li>
+          <li><Link to="/technologies">technologies</Link></li>
         </ul>
       </div>
     </Container>

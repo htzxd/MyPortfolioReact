@@ -1,5 +1,7 @@
 import { Container } from "./style";
 
+
+
 import { Nav } from "../../components/nav";
 import { Footer } from "../../components/footer";
 import { Card } from "../../components/card";
