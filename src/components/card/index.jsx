@@ -1,4 +1,5 @@
 import { Container } from "./style";
+
 import spotify from "../../assets/spotify.png";
 
 export function Card(){
@@ -6,7 +7,9 @@ export function Card(){
     <Container>
       
         <img src={spotify} alt="" />
-        <h2>Spotify Recommendation</h2>
+        <a href="https://github.com/htzxd/spotifyRecomendation" target="_blank">
+          <h2>Spotify Recommended</h2>
+        </a>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
           In modi nostrum rem. Accusamus impedit soluta voluptates eius 
