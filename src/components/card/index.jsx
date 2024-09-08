@@ -1,18 +1,19 @@
 import { Container } from "./style";
-import img from "../../assets/gitFav.png"
+import spotify from "../../assets/spotify.png";
 
 export function Card(){
-  return (
+  return(
     <Container>
-
-      <div className="cards">
-        <img src={img} />
-        <h2>Pro 1</h2>
-        <p>Hoje eu vo bebe e pra esquece eu so quero whisky vagabundo <br /> 
-          igual voce, que vem com a dorde cabeça junto
+      
+        <img src={spotify} alt="" />
+        <h2>Spotify Recommendation</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+          In modi nostrum rem. Accusamus impedit soluta voluptates eius 
+          deleniti quia modi cum at. Dignissimos 
+          iusto officia repellat molestias praesentium. Laudantium, atque.
         </p>
-      </div>
-
+      
     </Container>
   )
 }

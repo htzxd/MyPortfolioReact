@@ -1,23 +1,20 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  max-height: 50rem;
-  max-width: 50rem;
-
+  background: ${({ theme }) => theme.colors.bg_main};
   border-radius: .8rem;
-  width: 100%;
-  
-  background: ${({ theme })=> theme.colors.bg_main};
-  display: flex;
-  
   text-align: center;
+  padding: 1.2rem;
 
-  .cards {
-   
-   > img {
-    border-radius: .8rem .8rem 0 0;
-    max-height: 50rem;
-    max-width: 50rem;
-   } 
+  img {
+    max-height: 25rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    width: 100%;
+    
+  }
+
+  p {
+    margin-top: 1.2rem;
   }
 `
