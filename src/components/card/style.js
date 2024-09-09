@@ -5,6 +5,10 @@ export const Container = styled.div`
   border-radius: .8rem;
   text-align: center;
 
+  h2 {
+    margin-inline: 1rem;
+  }
+
   img {
     max-height: 25rem;
     text-align: center;
@@ -22,8 +26,11 @@ export const Container = styled.div`
   }
 
   p {
-    margin-top: 1.2rem;
     padding: 1.2rem;
     cursor: pointer;
+  }
+
+  @media (max-width: 826px){
+    font-size: 1.4rem;
   }
 `

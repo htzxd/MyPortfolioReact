@@ -23,6 +23,10 @@ export const Container = styled.nav`
         font-weight: 900;
         font-size: 2.4rem;
         color: ${({ theme })=> theme.colors.nav_color};
+
+        @media (max-width: 399px){
+          font-size: 2rem;
+        }
       }
     }
   }
