@@ -32,6 +32,7 @@ export const Main = styled.div`
     padding: 1.8rem;
     border-radius: .8rem 0 .8rem 0;
     line-height: 150%;
+    margin-block: 1.2rem;
   }
 
   img {
@@ -42,4 +43,40 @@ export const Main = styled.div`
 
   border-top: 3px solid rgba(145, 99, 160, 0.8);
   border-bottom: 3px solid rgba(145, 99, 160, 0.8);
+
+  @media (max-width: 1065px){
+    img {
+      max-width: 30rem;
+    }
+
+    p {
+      max-height: 25rem;
+      font-size: 1.4rem;
+    }
+  }
+
+  @media (max-width: 840px){
+    img {
+      max-width: 30rem;
+    }
+
+    p {
+      max-width: 40rem;
+    }
+  }
+
+  @media (max-width: 735px){
+    display: flex;
+    flex-direction: column-reverse;
+
+    img {
+      max-width: 40rem;
+      max-height: 35rem;
+    }
+
+    p {
+      max-width: 35rem;
+      font-size: 1.2rem;
+    }
+  }
 `
