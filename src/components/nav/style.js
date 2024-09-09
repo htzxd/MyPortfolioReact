@@ -19,6 +19,7 @@ export const Container = styled.nav`
       gap: 2rem;
       
       > li a {
+        letter-spacing: 2px;
         text-decoration: none;
         font-weight: 900;
         font-size: 2.4rem;

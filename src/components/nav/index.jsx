@@ -10,7 +10,8 @@ export function Nav(){
       
         <ul>
           <li><Link to="/projects">Projects</Link></li>
-          <li><Link to="/technologies">technologies</Link></li>
+          <li><Link to="/technologies">Technologies</Link></li>
+          <li><Link to="/about">About</Link></li>
         </ul>
       </div>
     </Container>
