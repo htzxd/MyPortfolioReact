@@ -25,8 +25,9 @@ export const Container = styled.nav`
         font-size: 2.4rem;
         color: ${({ theme })=> theme.colors.nav_color};
 
-        @media (max-width: 399px){
+        @media (max-width: 440px){
           font-size: 2rem;
+          letter-spacing: normal;
         }
       }
     }
